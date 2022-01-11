@@ -2,22 +2,22 @@
     <nav>
         <ul>
             <li>
-                <a href="#">Home</a>
+                <a href="#">Home <i class="fas fa-angle-down"></i></a>
             </li>
             <li>
-                <a href="#">Pages</a>
+                <a href="#">Pages <i class="fas fa-angle-down"></i></a>
             </li>
             <li>
-                <a href="#">Courses</a>
+                <a href="#">Courses <i class="fas fa-angle-down"></i></a>
             </li>
             <li>
-                <a href="#">Features</a>
+                <a href="#">Features <i class="fas fa-angle-down"></i></a>
             </li>
             <li>
-                <a href="#">Blog</a>
+                <a href="#">Blog <i class="fas fa-angle-down"></i></a>
             </li>
             <li>
-                <a href="#">Shop</a>
+                <a href="#">Shop <i class="fas fa-angle-down"></i></a>
             </li>
         </ul>
     </nav>
@@ -31,5 +31,16 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+nav{
+    display: flex;
+    margin: 5px;
+}
+ul{
+    display: flex;
+        li{
+            padding: 5px 10px;
+            font-size: 1em;
+        }
+    }
 
 </style>

@@ -1,7 +1,7 @@
 <template>
     <header>
         <div class="container">
-            <img src="../../assets/img/dark-logo.png" alt="logo">
+            <div class="logo"><img src="../../assets/img/dark-logo.png" alt="logo"></div>
             <NavBar />
             <SocialMedia />
         </div>
@@ -24,11 +24,19 @@ export default {
 
 <style lang="scss" scoped>
 header{
-    height: 80px;
-    display: flex;
-    justify-content: space-between;
-    line-height: 80px;
-    padding: 5px;
-    }
+    height: 50px;
+    
+}
+.container{
+    justify-content: space-evenly;
+    align-items: center;
+    .logo img{
+        height: 25px;
+}
+   
+    
+}
+
+
 
 </style>

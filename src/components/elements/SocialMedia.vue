@@ -25,8 +25,16 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-i{
-    color: black;
+nav{
+    display: flex;
+    margin: 5px;
 }
+ul{
+    display: flex;
+        li{
+            padding: 5px 10px;
+            font-size: 1.2em;
+        }
+    }
 
 </style>
