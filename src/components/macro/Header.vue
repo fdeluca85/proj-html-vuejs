@@ -1,5 +1,6 @@
 <template>
     <header>
+        <Countdown />
         <div class="container">
             <div class="logo"><img src="../../assets/img/dark-logo.png" alt="logo"></div>
             <NavBar />
@@ -12,11 +13,13 @@
 <script>
 import NavBar from "../elements/NavBar.vue"
 import SocialMedia from "../elements/SocialMedia.vue"
+import Countdown from "../elements/Countdown.vue"
 export default {
     name: 'Header',
     components: {
         NavBar,
-        SocialMedia       
+        SocialMedia,
+        Countdown
 
     }
 }
@@ -24,7 +27,7 @@ export default {
 
 <style lang="scss" scoped>
 header{
-    height: 50px;
+    height: 80px;
     
 }
 .container{
@@ -32,7 +35,8 @@ header{
     align-items: center;
     .logo img{
         height: 25px;
-}
+    }
+    
    
     
 }
