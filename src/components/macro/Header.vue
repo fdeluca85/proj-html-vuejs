@@ -2,10 +2,11 @@
     <header>
         <Countdown />
         <div class="container">
-            <div class="logo"><img src="../../assets/img/dark-logo.png" alt="logo"></div>
+            <div class="logo"><a href=""><img src="../../assets/img/dark-logo.png" alt="logo"></a></div>
             <NavBar />
             <SocialMedia />
         </div>
+        <Hero />
     </header>
   
 </template>
@@ -14,16 +15,18 @@
 import NavBar from "../elements/NavBar.vue"
 import SocialMedia from "../elements/SocialMedia.vue"
 import Countdown from "../elements/Countdown.vue"
+import Hero from "../elements/Hero.vue"
 export default {
     name: 'Header',
     components: {
         NavBar,
         SocialMedia,
-        Countdown
-
+        Countdown,
+        Hero
     }
 }
 </script>
+
 
 <style lang="scss" scoped>
 header{
@@ -35,12 +38,7 @@ header{
     align-items: center;
     .logo img{
         height: 25px;
-    }
-    
-   
-    
+        cursor: pointer;
+    }    
 }
-
-
-
 </style>

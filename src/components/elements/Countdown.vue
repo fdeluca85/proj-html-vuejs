@@ -1,6 +1,6 @@
 <template>
     <div class="countdown" >
-        Starts TOMORROW! Our biggest biggest event of the year... <i class="far fa-clock"></i> 00:00:00 <button>Get Ticket</button>
+        Starts TOMORROW! Our biggest event of the year... <span><i class="far fa-clock"></i> 00 : 00 : 00 </span> <button>Get Ticket</button>
         
     </div>
   
@@ -20,13 +20,13 @@ export default {
     height: 50px;
     line-height: 50px;
     font-size: 0.9em;
-        .fa-clock{
-        color: black;
-        margin: 0 5px 0 20px;
-            }
             button{
         margin: auto 20px;
-    }
+        }
 }
-
+span{
+    color: black;
+    padding: 10px;
+    font-weight: bold;
+}
 </style>
