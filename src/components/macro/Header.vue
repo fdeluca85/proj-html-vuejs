@@ -6,7 +6,7 @@
             <NavBar />
             <SocialMedia />
         </div>
-        <Hero />
+        
     </header>
   
 </template>
@@ -15,14 +15,13 @@
 import NavBar from "../elements/NavBar.vue"
 import SocialMedia from "../elements/SocialMedia.vue"
 import Countdown from "../elements/Countdown.vue"
-import Hero from "../elements/Hero.vue"
+
 export default {
     name: 'Header',
     components: {
         NavBar,
         SocialMedia,
         Countdown,
-        Hero
     }
 }
 </script>
@@ -31,6 +30,7 @@ export default {
 <style lang="scss" scoped>
 header{
     height: 80px;
+    margin-bottom: 20px;
     
 }
 .container{

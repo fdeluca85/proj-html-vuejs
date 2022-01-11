@@ -7,7 +7,7 @@
         </div>
         <div class="heroCenter">
             <div class="title">
-                <h3>Hello, I'm Martin</h3>
+                <h4>Hello, I'm Martin</h4>
                 <h2>Artist Coaching And Mentoring</h2>
                 <h2>Might be for you</h2>
                 <button>Get started today</button>
@@ -31,9 +31,6 @@ export default {
 <style lang="scss" scoped>
 .hero{
     background-color: #FBF9F6;
-    background-image: url('../../assets/img/artist-hero-image-03-204x300.png');
-    background-repeat: no-repeat;
-    background-position: bottom center;
     height: 600px;
     padding: 20px;
     display: flex;
