@@ -1,7 +1,10 @@
 <template>
     <nav>
         <ul>
-            <li>
+            <li v-for="(link, index) in links" :key='index'>
+                <a :href="link.url">{{link.text}} <i class="fas fa-angle-down"></i></a>
+            </li>
+            <!-- <li>
                 <a href="#">Home <i class="fas fa-angle-down"></i></a>
             </li>
             <li>
@@ -18,7 +21,7 @@
             </li>
             <li>
                 <a href="#">Shop <i class="fas fa-angle-down"></i></a>
-            </li>
+            </li> -->
         </ul>
     </nav>
   
@@ -26,7 +29,10 @@
 
 <script>
 export default {
-    name: 'NavBar'
+    name: 'NavBar',
+    props: {
+        links: Array
+    }
 }
 </script>
 
