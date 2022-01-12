@@ -1,5 +1,10 @@
 <template>
-    <section>
+    <section id="testimonials">
+        <!-- <div class="bgc">
+            <img src="../../assets/img/wave2.svg" alt="">
+            prova
+        </div> -->
+        
         <h4>Testimonials</h4>
         <h3>Why do people love me?</h3>
 
@@ -28,5 +33,16 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+section{
+    // position: relative;
+    background-color: #faf8f6 ;
+    }
+// .bgc img{
+//     // background-color:blueviolet;
+//     position: absolute;
+//     top: -250px;
+//     left: -200px;
+//     z-index: 1;
+// }
 
 </style>

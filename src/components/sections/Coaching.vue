@@ -1,8 +1,8 @@
 <template>
-    <section>
+    <section id="coaching">
         <div class="section_bgc">
             <img src="../../assets/img/artist-shape-01.png" class="shape1" alt="">
-            <img src="../../assets/img/maxcoach-shape-14.png" class="shape14" alt="">
+            <img src="../../assets/img/maxcoach-shape-14-600x134.png" class="shape14" alt="">
 
         </div>
         <div class="title">

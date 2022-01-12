@@ -65,11 +65,15 @@ button {
 /*--------------
     SECTION
 --------------*/
+section {
+  padding: 50px;
+}
 
 .row {
   display: flex;
   justify-content: center;
   margin: 50px auto;
+  z-index: 10;
 }
 .card {
   padding: 20px;
