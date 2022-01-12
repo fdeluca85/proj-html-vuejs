@@ -3,9 +3,9 @@
         
             <div class="container">
                 <FooterAddress />
-            <FooterExplore :exploreLinks="exploreLinks" />
-            <FooterInfo :infos="infos" />
-            <FooterInstagram />
+                <FooterExplore :exploreLinks="exploreLinks" />
+                <FooterInfo :infos="infos" />
+                <FooterInstagram :images="images" />
             </div>
         
     </footer>
@@ -77,7 +77,21 @@ export default {
                         current: false
                     },
 
-                ]
+                ],
+                // images: [
+                //     {
+                //         id: "01",
+                //         url: 'src/assets/img/120012142_177596140500760_8623485824101406058_n.jpg'
+                //     },
+                //     {
+                //         id: "02",
+                //         url: 'src/assets/img/120084500_197897808368764_8114555493043279565_n.jpg'
+                //     },
+                //     {
+                //         id: "03",
+                //         url: 'src/assets/img/120099363_364334431619755_7198812647386067017_n.jpg'
+                //     }
+                // ]
             }
         }
 }
@@ -85,7 +99,11 @@ export default {
 
 <style lang="scss" scoped>
 footer{
-    border-top: 1px solid blue;
+    // border-top: 1px solid blue;
+    padding: 20px;
+    li{
+        color: grey;
+    }
 }
 
 

@@ -23,7 +23,6 @@ export default {
 
 <style lang="scss" scoped>
 p{
-  margin: 10px auto;
   color: grey;
 }
 

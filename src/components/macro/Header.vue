@@ -80,6 +80,7 @@ header{
 }
 .container{
     height: 80px;
+    align-items: center;
     .logo img{
         height: 25px;
         cursor: pointer;
