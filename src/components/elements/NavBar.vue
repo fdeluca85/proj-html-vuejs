@@ -32,7 +32,6 @@ export default {
 
 <style lang="scss" scoped>
 nav{
-    
     display: flex;
     margin: 5px;
 }

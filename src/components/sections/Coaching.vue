@@ -27,6 +27,11 @@
             </div>
             <div>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum consequatur magni dignissimos quidem, laudantium quos eligendi, iste autem, quibusdam est natus rerum porro nesciunt labore in sed cupiditate obcaecati veniam.</div>
         </div>
+        <div class="row">
+            <div class="video">
+                <img src="../../assets/img/artist-video-poster.jpg" alt="">
+            </div>
+        </div>
     </section>
   
 </template>
@@ -43,16 +48,6 @@ section{
     width: 70%;
     
 }
-.row{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    margin: 50px auto;
-    
-}
-.card{
-    padding: 20px;
 
-}
 
 </style>

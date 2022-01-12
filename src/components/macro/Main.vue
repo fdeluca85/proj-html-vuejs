@@ -14,12 +14,12 @@
 
 <script>
 import Hero from "../elements/Hero.vue"
-import Coaching from "../elements/Coaching.vue"
-import Testimonials from "../elements/Testimonials.vue"
-import Courses from "../elements/Courses.vue"
-import Blog from "../elements/Blog.vue"
-import Events from "../elements/Events.vue"
-import Newsletter from "../elements/Newsletter.vue"
+import Coaching from "../sections/Coaching.vue"
+import Testimonials from "../sections/Testimonials.vue"
+import Courses from "../sections/Courses.vue"
+import Blog from "../sections/Blog.vue"
+import Events from "../sections/Events.vue"
+import Newsletter from "../sections/Newsletter.vue"
 
 export default {
     name: 'Main',

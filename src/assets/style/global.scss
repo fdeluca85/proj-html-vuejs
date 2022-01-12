@@ -62,3 +62,15 @@ button {
   padding: 10px 20px;
   cursor: pointer;
 }
+/*--------------
+    SECTION
+--------------*/
+
+.row {
+  display: flex;
+  justify-content: center;
+  margin: 50px auto;
+}
+.card {
+  padding: 20px;
+}

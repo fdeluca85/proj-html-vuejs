@@ -28,12 +28,8 @@ export default {
 
 
 <style lang="scss" scoped>
-header{
-    height: 80px;
-    margin-bottom: 20px;
-    
-}
 .container{
+    height: 80px;
     justify-content: space-evenly;
     align-items: center;
     .logo img{
