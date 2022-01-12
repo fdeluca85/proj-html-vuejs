@@ -50,7 +50,7 @@ export default {
     }
     &__left, &__right{
     display: flex;
-    z-index: 99;
+    z-index: 90;
     }
 }
 .blc{

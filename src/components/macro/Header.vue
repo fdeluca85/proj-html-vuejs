@@ -71,10 +71,15 @@ export default {
 
 
 <style lang="scss" scoped>
+header{
+    position: sticky;
+    position: -webkit-sticky;
+    top:0;
+    z-index: 99;
+    background-color: #fff;
+}
 .container{
     height: 80px;
-    justify-content: space-evenly;
-    align-items: center;
     .logo img{
         height: 25px;
         cursor: pointer;
