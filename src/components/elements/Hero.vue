@@ -1,14 +1,14 @@
 <template>
     <div class="hero" >
         
-        <div class="hero__bgc">
+        
             <img src="../../assets/img/artist-hero-image-03-204x300.png" class="blc" alt="">
             <img src="../../assets/img/artist-shape-02-768x415.png" class="shapeR" alt="">
             <img src="../../assets/img/artist-shape-01-600x577.png" class="shapeL" alt="">
             <img src="../../assets/img/artist-shape-04.png" class="leaf" alt="">
             <img src="../../assets/img/artist-shape-05.png" class="colors" alt="">
 
-        </div>
+        
        <div class="box">
             <div class="hero__left">
             <img src="../../assets/img/artist-hero-image-01.jpg" class="pictureL" alt="">
@@ -42,14 +42,11 @@ export default {
 .hero, .box{
     background-color: #FBF9F6;
     height: 600px;
-    // padding: 20px;
     display: flex;
     align-items: center;
     justify-content: center;
     position: relative;
-    &__bgc{
-        z-index: 1;
-    }
+    
     &__left, &__right{
     display: flex;
     z-index: 90;

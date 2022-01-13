@@ -1,9 +1,8 @@
 <template>
     <section id="newsletter">
-        <div class="bgc">
-            <img src="../../assets/img/artist-shape-color-paint-top-left-300x170.png" class="tl" alt="">
-            <img src="../../assets/img/artist-shape-color-paint-bottom-right-300x153.png" class="br" alt="">
-        </div>
+        
+        <img src="../../assets/img/artist-shape-color-paint-top-left-300x170.png" class="tl" alt="">
+        <img src="../../assets/img/artist-shape-color-paint-bottom-right-300x153.png" class="br" alt="">
         <p class="title_news">Newsletter to get  in touch</p>
         <input type="email" class="email" name="newsletter_email" placeholder="Your e-mail">
 

@@ -123,7 +123,7 @@ export default {
         background-color: #fff;
         border: 2px solid #ef6f31;
         padding: 20px 20px;
-        transform: translatey(-60%);
+        transform: translatey(-40%);
         width: 90%;
         height: 150px ;
 }
