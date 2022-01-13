@@ -68,8 +68,12 @@
                         <span class="name">The Colored Pencil <br> Drawing Corse</span>
                         <span class="info"><i class="far fa-file-alt"></i> 6 Lesson  <i class="far fa-user"></i> 50 Sudents</span>
                     </div>
+
                 </div>
+                <button class="btn_reverse">View all Courses <i class="fas fa-long-arrow-alt-right"></i></button>
+                
             </div>
+            
         </div>
     </section>
   
@@ -84,10 +88,12 @@ export default {
 <style lang="scss" scoped>
 .container{
     flex-direction: column;
+    justify-content: center;
 }
 .box{
+    padding-top: 20px;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     flex-wrap: wrap;
     // padding: 10px;
 }
@@ -100,7 +106,7 @@ export default {
 .card, .cardInfo, .paint{
     display: flex;
     flex-direction: column;
-     transition: 0.3s;
+     transition: 0.6s ;
      overflow: hidden;
     img{
         height: 350px;
@@ -116,8 +122,10 @@ export default {
         transform: scale(1.1);
         background-color: #fff;
         border: 2px solid #ef6f31;
-        padding: 20px 10px;
+        padding: 20px 20px;
         transform: translatey(-60%);
+        width: 90%;
+        height: 150px ;
 }
 .price{
     color: #ef6f31;

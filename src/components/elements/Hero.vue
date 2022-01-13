@@ -53,6 +53,7 @@ export default {
     &__left, &__right{
     display: flex;
     z-index: 90;
+    padding: 50px;
     }
 }
 .blc{
@@ -66,6 +67,7 @@ export default {
     left: 0;
     z-index: 2;
 }
+
 .shapeL{
     position: absolute;
     top: 0;
