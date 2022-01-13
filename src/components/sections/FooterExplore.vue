@@ -3,7 +3,7 @@
     <h5>Explore</h5>
     <ul>
       <li v-for="(exploreLink, index) in exploreLinks" :key="index">
-        <a :href="exploreLink.url">{{exploreLink.text}}</a>
+        <a :href="exploreLink.url" class="linkExternal">{{exploreLink.text}}</a>
       </li>
     </ul>
   </div>
@@ -21,5 +21,9 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+li{
+  padding: 5px;
+  }
+
 
 </style>

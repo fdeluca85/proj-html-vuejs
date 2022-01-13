@@ -59,16 +59,19 @@ a {
   color: #4b4b4b;
 }
 button {
-  background-color: #ef6f31;
   border: none;
   border-radius: 5px;
-  color: white;
   font-weight: bold;
   padding: 10px 20px;
   cursor: pointer;
+  margin-top: 30px;
+}
+.linkExternal {
+  color: #797979;
+  font-size: 13px;
 }
 /*--------------
-    SECTION
+    MIX
 --------------*/
 section {
   padding: 50px;
@@ -82,4 +85,20 @@ section {
 }
 .card {
   padding: 20px;
+}
+.btn_orange {
+  background-color: #ef6f31;
+  color: white;
+}
+.btn_orange:hover {
+  background-color: #6ac5f1;
+}
+
+.btn_reverse {
+  background-color: #fdf0ea;
+  color: #ef6f31;
+}
+.btn_reverse:hover {
+  background-color: #ef6f31;
+  color: white;
 }

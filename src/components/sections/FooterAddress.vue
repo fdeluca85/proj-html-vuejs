@@ -23,7 +23,8 @@ export default {
 
 <style lang="scss" scoped>
 p{
-  color: grey;
+  color: #797979;
+  font-size: 13px;
 }
 
 </style>

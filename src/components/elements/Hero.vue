@@ -18,7 +18,7 @@
                 <h4>Hello, I'm Martin</h4>
                 <h2>Artist Coaching And Mentoring</h2>
                 <h2>Might be for you</h2>
-                <button>Get started today</button>
+                <button class="btn_orange">Get started today</button>
             </div>
         </div>
         <div class="hero__right">

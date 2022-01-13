@@ -1,6 +1,6 @@
 <template>
     <div class="countdown" >
-        Starts TOMORROW! Our biggest event of the year... <span><i class="far fa-clock"></i> 00 : 00 : 00 </span> <button>Get Ticket</button>
+        Starts TOMORROW! Our biggest event of the year... <span><i class="far fa-clock"></i> 00 : 00 : 00 </span> <button class="btn_orange">Get Ticket</button>
         
     </div>
   

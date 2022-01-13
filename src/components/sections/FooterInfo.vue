@@ -3,7 +3,7 @@
     <h5>Information</h5>
     <ul>
       <li v-for="(info, index) in infos" :key="index">
-        <a :href="info.url">{{info.text}}</a>
+        <a :href="info.url" class="linkExternal">{{info.text}}</a>
       </li>
     </ul>
   </div>
@@ -22,5 +22,8 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+li{
+  padding: 5px;
+  }
 
 </style>

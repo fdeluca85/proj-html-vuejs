@@ -100,11 +100,9 @@ export default {
 <style lang="scss" scoped>
 footer{
     // border-top: 1px solid blue;
-    padding: 20px;
-    li{
-        color: grey;
-    }
+    padding: 20px;    
 }
+
 
 
 </style>
