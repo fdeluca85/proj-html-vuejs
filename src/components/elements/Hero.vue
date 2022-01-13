@@ -9,7 +9,8 @@
             <img src="../../assets/img/artist-shape-05.png" class="colors" alt="">
 
         </div>
-        <div class="hero__left">
+       <div class="box">
+            <div class="hero__left">
             <img src="../../assets/img/artist-hero-image-01.jpg" class="pictureL" alt="">
             <img src="../../assets/img/artist-hero-image-02-232x300.jpg" class="pictureR" alt="">
         </div>
@@ -25,6 +26,7 @@
             <img src="../../assets/img/artist-hero-image-04-235x300.jpg" alt="">
 
         </div>
+       </div>
         
     </div>
   
@@ -37,13 +39,13 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-.hero{
+.hero, .box{
     background-color: #FBF9F6;
     height: 600px;
     // padding: 20px;
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: center;
     position: relative;
     &__bgc{
         z-index: 1;
@@ -86,7 +88,7 @@ export default {
     height: 30%;
     position: relative;
     bottom: -120px;
-    left: 12%;
+    left: 0%;
     z-index: 5;
     box-shadow: 10px 10px 50px rgb(126, 126, 126);
 
@@ -95,7 +97,7 @@ export default {
 .pictureR{
     position: relative;
     bottom: 100px;
-    left: 10%;
+    left: -5%;
     z-index: 4;
     box-shadow: 10px 10px 50px rgb(126,126,126);
 
