@@ -46,7 +46,12 @@ ul{
         li{
             padding: 5px 10px;
             font-size: 1em;
+            :hover{
+                border-bottom: 1px solid #EF6F31;
+            }
         }
     }
+
+
 
 </style>
